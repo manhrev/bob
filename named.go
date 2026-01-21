@@ -8,7 +8,7 @@ import (
 )
 
 type RawNamedArgError struct {
-	Name string // test
+	Name string // test nss
 }
 
 func (e RawNamedArgError) Error() string {
